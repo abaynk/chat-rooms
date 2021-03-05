@@ -1,0 +1,38 @@
+.SidebarChat {
+    display:flex;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+    background: rgba( 8, 28, 21, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 30px;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    color: white;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.SidebarChat:hover {
+    background: rgba( 45, 106, 79, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 30px;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+.SidebarChat__info > h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.SidebarChat__info {
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+.SidebarChat__add {
+    color: #0077b6;
+}

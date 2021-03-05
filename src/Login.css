@@ -1,0 +1,54 @@
+.Login {
+    height: 100vh;
+    width: 90vw;
+    display: grid;
+    place-items: center;
+    background-image: url('./HD wallpaper gradient, abstract, hd, 4k, digital art, logo, minimalism, minimalist.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.Login__container {
+    /* width: 90%; */
+    padding: 100px;
+    text-align: center;
+    color: White;
+    background-image: linear-gradient(rgba(2,62,138,0.4),rgba(27,67,50,0.4));
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur( 3px );
+    /* background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(4px); */
+    border-radius: 30px;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+.Login__container > button {
+    margin-top: 30px;
+    text-transform: inherit !important;
+    background: rgba( 8, 28, 21, 0.70 ) !important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+    backdrop-filter: blur( 19.5px ) !important;
+    -webkit-backdrop-filter: blur( 19.5px ) !important;
+    border-radius: 10px !important;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18) !important; */
+    color: white;
+}
+.Login__hand {
+    font-size: 60px;
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }

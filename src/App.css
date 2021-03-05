@@ -1,38 +1,29 @@
 .App {
-  text-align: center;
+  display:grid;
+  place-items: center;
+  height: 100vh;
+  background-image: url('./HD wallpaper gradient, abstract, hd, 4k, digital art, logo, minimalism, minimalist.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App__body {
+  display:flex;
+  margin-top: 0px;
+  width: 90vw;
+  height: 90vh;
+  background-image: linear-gradient(rgba(2,62,138,0.4),rgba(27,67,50,0.4));
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App__credits {
+  margin-top: -50px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 18px;
+  font-weight: 800;
+  -webkit-text-stroke: 1.5px black;
 }

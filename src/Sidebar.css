@@ -1,0 +1,83 @@
+.Sidebar {
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.Sidebar__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px 30px 0 0;
+    margin: 5px 2.5px 0 5px;
+    overflow: scroll;
+    scrollbar-width: none;
+    /* border-right: 1px solid lightgray; */
+}
+.Sidebar__headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+.Sidebar__headerRight > .MuiSvgIcon-root {
+    margin-right: 2vw;
+    font-size: 24px !important;
+}
+.Sidebar__headerRight > .MuiIconButton-root {
+    color: rgba(255,255,255,0.9);
+}
+.Sidebar__headerRight > .MuiButtonBase-root {
+    color: rgba(255,255,255,0.9);
+}
+
+.Sidebar__search {
+    display: flex;
+    align-items: center;
+    height: 39px;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 30px 30px;
+    margin: 0 2.5px 2.5px 5px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.Sidebar__searchContainer {
+    display: flex;
+    align-items: center;
+    background: rgba(  8, 28, 21, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.Sidebar__searchContainer > .MuiSvgIcon-root {
+    color: white;
+    padding: 10px;
+}
+.Sidebar__searchContainer > input {
+    border: none;
+    margin-left: 10px;
+    background: none;
+    color: white;
+    outline: none;
+}
+
+.Sidebar__chats {
+    overflow: scroll;
+    scrollbar-width: none;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin: 2.5px 2.55px 5px 5px;
+    
+    /* background-color: white; */
+}
